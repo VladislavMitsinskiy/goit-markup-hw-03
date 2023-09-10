@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1558px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -65,6 +65,16 @@ img {
   display: flex;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .logo {
   color: var(--color-logo);
   font-family: "Raleway", sans-serif;
@@ -74,6 +84,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -86,11 +97,17 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--color-active);
+}
+
+.nav-connect {
+  display: flex;
+  gap: 40px;
 }
 
 .connection {
