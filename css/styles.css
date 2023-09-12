@@ -162,12 +162,26 @@ img {
   background-color: var(--color-active);
 }
 
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-head {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-header {
   color: var(--color-back);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-paragraph {
