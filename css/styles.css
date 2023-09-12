@@ -182,6 +182,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .advantages-paragraph {
@@ -190,10 +192,21 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-section {
   background-color: var(--color-bottom);
+  padding: 120px 0;
+}
+
+.team-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.team-div {
+  padding: 32px 0;
 }
 
 .team-header {
@@ -203,14 +216,18 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .prod-des {
   background-color: var(--color-hero);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .bottom {
   background-color: var(--color-back);
+  padding: 100px 0;
 }
 
 .bottom-logo {
@@ -221,6 +238,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .bottomlogo-accent {
