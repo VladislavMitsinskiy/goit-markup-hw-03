@@ -244,6 +244,7 @@ img {
 
 .bottomlogo-accent {
   color: var(--color-bottom);
+  display: inline-block;
 }
 
 .bottom-text {
