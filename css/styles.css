@@ -57,15 +57,11 @@ img {
 
 .header-inner {
   border-bottom: 1px solid var(--color-head);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
+  margin: 0 auto;
 }
 
-.container inner {
+.header-inner .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
