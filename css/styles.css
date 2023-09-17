@@ -119,7 +119,6 @@ img {
 
 .connection {
   font-style: normal;
-  padding: 24px 0;
 }
 
 .nav-connection {
@@ -128,6 +127,8 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .nav-connection:hover,
@@ -148,6 +149,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -155,7 +158,6 @@ img {
   background-color: var(--color-logo);
   cursor: pointer;
   border: none;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -164,6 +166,7 @@ img {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .hero-button:focus,
@@ -192,7 +195,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -202,12 +204,31 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .team-section {
   background-color: var(--color-bottom);
   padding: 120px 0;
+}
+
+.team-head {
+  color: var(--color-back);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-paragraph {
+  color: var(--color-navi);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-ul {
@@ -255,7 +276,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .bottom {
@@ -285,4 +305,5 @@ img {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
+  width: 264px;
 }
